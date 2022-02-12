@@ -1,0 +1,62 @@
+body {
+    background: #f7f7f7; /*Adicionar uma cor de fundo ao body para enxergar o bloco. Alterado a cor de #ccc para #f7f7f7*/
+    font-family: Verdana; /*Adicionando a fonte Verdana em todo body*/
+    max-width: 900px; /*O site ocupa toda a tela e para alterar, vamos utilizar 900px para o body delimitando o container. Fazendo uma simulação de uma tela menor que 900px, nota-se que o conteúdo do site não cabe e, para resolver, altere-se o parâmetro width para max-width*/
+    margin: auto; /*As telas possuem tamanhos diferentes, nunca saberemos a quantidade de espaço para a esquerda e para a direita. Com o margin auto, cria automaticamente esse espaço centralizando a página*/
+}
+
+.photo {
+    border: 1px solid #505050; /*Adicionado uma pequena borda sólida contornando a imagem com a cor preta suave*/
+    border-radius: 50%; /*Classe photo referente a imagem da foto, 50px deixará a foto redonda*/
+}
+
+#title, .subtitle, .post_title { /*Alteração da cor dos títulos h1, h2 e h3*/
+    color: #505050; /*Alteração da cor blue para um tom de preto mais suave #505050*/
+}
+
+#title {
+    font-size: 40px; /*Aumento do tamanho da fonte principal do nosso título h1*/
+    text-transform: uppercase; /*Caixa alta para o título h1*/
+}
+
+a {
+    text-decoration: line-through; /*Irá alterar todos os links adicionando uma linha ao centro*/
+    color: #505050; /*Cor preta suave para manter o padrão nos links também*/
+}
+
+.post_title { /*Alteração do tamanho da fonte e estilo da letra apenas para o h3 que é post específico*/
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.post { /*Adicionar a cor de fundo branca ao nosso <article> que representa o post específico no HTML*/
+    background: #FFF;
+    padding: 15px; /*Espaçamento entre o conteúdo e a borda*/
+    border: 3px solid #505050; /*Adicionar uma borda de 3px de largura, sólida e da cor preta. Alterado da cor preta #000 para um preto mais suave #505050*/
+    margin-bottom: 15px; /*Alterado de margin para margin-botton*/
+    border-radius: 5px; /*5px arrendodados para cada canto da borda*/
+}
+
+.post_content {
+    margin: 0; /*Zera todas as margens*/
+    margin-bottom: 15px; /*Adicionar margem apenas na parte inferior*/
+    text-transform: capitalize; /*Alterando o conteúdo de todo o texto do post com a 1a letra de cada palavra em maiúscula*/
+    text-align: justify; /*Alinhamento do conteúdo do texto respeitando os lados esquerdo e direito*/
+}
+
+.post_image {
+    margin: 0; /*Zera todas as margens da imagem*/
+    margin-bottom: 15px; /*Aplica a margem apenas na parte inferior da imagem seguindo o padrão de alteração e melhores práticas sempre na parte inferior*/
+    width: 100%; /*Fará com que a imagem que está dentro do body respeite/se adapte ao tamanho de 900px pré-estabelecido no body sem ultrapassar o elemento que está de fora*/
+}
+
+.contacts_list { /*Classe criada no HTML para a lista desordenada <ul>*/
+    list-style-type: none; /*square deixará a lista no formato de um quadrado más, como náo faz sentido utilizar neste caso, vamor deicar como none*/
+    padding-left: 15px; /*Deixará a lista mais próxima da lateral do site*/
+}
+
+.contacts_list li a { /*Seguindo a cascata CSS, será estilizado apenas os <a> do <li> da class contacts_list*/
+    text-decoration: none;
+}
