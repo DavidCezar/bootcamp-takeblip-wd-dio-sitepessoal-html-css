@@ -14,7 +14,7 @@ Site pessoal servindo apenas de exemplo contemplando o uso dos itens abaixo:
 - Uso de textos e links
 - Uso de imagens
 - Uso de listas (li, ul e ol)
-- Uso das tags <p>, <a> e <img>
+- Uso das tags p, a e img
 - Uso do href e target
 - Introdução e conceitos básicos do CSS3
 - Definição de seletores e declarações
@@ -30,7 +30,7 @@ Site pessoal servindo apenas de exemplo contemplando o uso dos itens abaixo:
 
 ## <u>Esboço da Página</u>
 
-![](C:\Pessoal\DIO\Take Blip\Bootcamp Take Blip Web Developer\Projetos\bootcamp-takeblip-wd-dio-sitepessoal-html-css\Escoço do Site Pessoal.jpg)
+![](https://github.com/DavidCezar/bootcamp-takeblip-wd-dio-sitepessoal-html-css/blob/main/Esco%C3%A7o%20do%20Site%20Pessoal.jpg)
 
 
 
